@@ -1,7 +1,6 @@
 import { Box, Text } from "@mantine/core";
 import React from "react";
 import Header from "../components/Header/Header";
-import AcademicsContent from "../components/academics/AcademicsContent";
 import ResearchContent from "../components/research/ResearchContent";
 
 const Research = () => {

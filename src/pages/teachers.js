@@ -1,7 +1,5 @@
 import { Text } from "@mantine/core";
 import React from "react";
-import Header from "../components/Header/Header";
-import CommonHeader from "../components/commonComponents/CommonHeader";
 import { teachers } from "../data/teachers.data";
 import { styled } from "styled-components";
 import COLORS from "../theme/color";
@@ -22,7 +20,6 @@ img {
 const Teachers = () => {
   return (
     <Wrapper>
-      {/* <CommonHeader title={'Our Teachers'} /> */}
       <div style={{display:'flex',flexWrap:'wrap'}}>
         {
           teachers?.map(item => {
