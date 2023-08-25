@@ -2,13 +2,14 @@ import { Box, Text } from "@mantine/core";
 import React from "react";
 import Header from "../components/Header/Header";
 import ResearchContent from "../components/research/ResearchContent";
+import Layout from "../components/layout/Layout";
 
 const Research = () => {
   return (
-    <Box px={150} mt={250} style={{ justifyContent: 'space-between', alignItems: 'center' }}>
+    <Layout>
       <Header />
       <ResearchContent />
-    </Box>
+    </Layout>
   )
 }
 

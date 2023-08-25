@@ -84,7 +84,7 @@ const data = [
 
 const Statistics = () => {
   return (
-    <Box px={150}>
+    <Box>
       <div style={{ marginTop: 20, marginBottom: 20 }}>
         <Text color={COLORS.primary} align='center' size={60}>Statistics</Text>
       </div>

@@ -7,6 +7,7 @@ import AboutContent from "../components/commonComponents/About"
 import Footer from "../components/Footer/Footer"
 import Testimonials from "../components/commonComponents/Testimonials"
 import CompaniesVisited from "../components/commonComponents/CompaniesVisited"
+import Layout from "../components/layout/Layout"
 
 const HomepageWrapper = styled.div`
 img {
@@ -26,15 +27,12 @@ const IndexPage = () => {
   return (
     <HomepageWrapper>
       <MantineProvider withGlobalStyles withNormalizeCSS>
-        <Header withLayout />
-        <AboutContent />
-        {/* <MissionVisionContent /> */}
-        {/* <ResearchSection /> */}
-        <Statistics />
-        <Testimonials />
-        {/* <StudentPaper /> */}
-        <CompaniesVisited />
-        <Footer />
+        <Layout withLayout={true}>
+          <AboutContent />
+          <Statistics />
+          <Testimonials />
+          <CompaniesVisited />
+        </Layout>
       </MantineProvider>
     </HomepageWrapper>
   )

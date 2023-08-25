@@ -1,19 +1,19 @@
 import React from "react";
-import { Text } from "@mantine/core";
+import { Box, Text } from "@mantine/core";
 import { HeroSection } from "../../data/HeroSection.data";
 import COLORS from "../../theme/color";
 
 
 const AboutContent = () => {
   return (
-    <div style={{ marginTop: 20, paddingLeft: 150, paddingRight: 150, justifyContent: 'space-between', alignItems: 'center' }}>
-      <div style={{ marginBottom: 16 }}>
+    <Box style={{ justifyContent: 'space-between', alignItems: 'center' }}>
+      <Box style={{ marginBottom: 16 }}>
         <Text color={COLORS.primary} align='center' size={60}>Overview</Text>
-      </div>
-      <div>
+      </Box>
+      <Box>
         <Text size={20} style={{ textAlign: 'justify' }}>{HeroSection.overview}</Text>
-      </div>
-    </div>
+      </Box>
+    </Box>
   )
 }
 

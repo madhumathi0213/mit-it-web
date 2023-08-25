@@ -1,9 +1,9 @@
 import { Box, Image, Text } from "@mantine/core";
 import React from "react";
-import { HeroSection, testimonials } from "../../data/HeroSection.data";
 import COLORS from "../../theme/color";
 import { styled } from "styled-components";
 import { Carousel } from "@mantine/carousel";
+import { testimonials } from "../../data/testimonial.data";
 const TestimonialWrapper = styled.div`
 .container {
   box-shadow: 4px 8px 21px 7px rgba(0,0,0,0.2);
@@ -16,7 +16,6 @@ const TestimonialWrapper = styled.div`
 const Testimonials = () => {
   return (
     <TestimonialWrapper>
-
       <Box style={{ marginTop: 20, justifyContent: 'space-between', alignItems: 'center' }}>
         <div style={{ marginBottom: 16 }}>
           <Text color={COLORS.primary} align='center' size={60}>What our Student Says</Text>
@@ -37,12 +36,12 @@ const Testimonials = () => {
             }}
           >
             {
-              testimonials.map((item, index) => (
+              testimonials?.map((item, index) => (
                 <Carousel.Slide key={index}>
                   <Box
                     mx='auto'
                     mt={20}
-                    style={{ minWidth: '50%', maxWidth: '50%' }}
+                    style={{ minWidth: '60%', maxWidth: '60%' }}
                   >
                     <Box align='center' className="container" p={30}>
                       <Box sx={{ borderRadius: '50%' }}>
@@ -72,6 +71,7 @@ const Testimonials = () => {
                        align='justify' size={14}>
                         {item.message}
                       </Text>
+                      <Text align="left" sx={{cursor:'pointer'}} color={COLORS.textBlueLight} size={12} underline>Read more</Text>
                     </Box>
                   </Box>
                 </Carousel.Slide>

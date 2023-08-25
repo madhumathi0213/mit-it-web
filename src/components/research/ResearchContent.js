@@ -1,17 +1,17 @@
 import { Box, Tabs, Text } from "@mantine/core";
 import React from "react";
 import COLORS from "../../theme/color";
-import ResearchSection from "../commonComponents/ResearchSection";
+import ResearchSection from "./ResearchSection";
+import ResearchScholars from "./ResearchScholars";
 
 const ResearchContent = () => {
   return (
-    <Box>
-      <Text size={32} color={COLORS.primary} weight={600} mb={32}>Research</Text>
+    <Box my={40}>
       <Tabs
         color={COLORS.primary}
         variant="outline"
         orientation="vertical"
-        defaultValue="staff"
+        defaultValue="thrust-areas"
         radius="xs"
         styles={(theme) => ({
           tab: {
@@ -33,12 +33,22 @@ const ResearchContent = () => {
         })}
       >
         <Tabs.List>
-          <Tabs.Tab value="staff" >Staff</Tabs.Tab>
-          <Tabs.Tab value="student">Student</Tabs.Tab>
+          <Tabs.Tab value="thrust-areas" >Thrust Areas</Tabs.Tab>
+          {/* <Tabs.Tab value="staff" >Collaborations</Tabs.Tab> */}
+          {/* <Tabs.Tab value="supervisors" >Supervisors</Tabs.Tab> */}
+          <Tabs.Tab value="scholars">Research Scholars</Tabs.Tab>
+          <Tabs.Tab value="publications">Publications</Tabs.Tab>
+          <Tabs.Tab value="patents">Patents</Tabs.Tab>
+          <Tabs.Tab value="theses">Theses</Tabs.Tab>
         </Tabs.List>
-        <Tabs.Panel value="staff" pl="xs">
+        <Tabs.Panel value="thrust-areas" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
             <ResearchSection />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="scholars" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <ResearchScholars />
           </Box>
         </Tabs.Panel>
         <Tabs.Panel value="student" pl="xs">

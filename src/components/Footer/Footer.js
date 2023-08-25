@@ -18,7 +18,7 @@ const Footer = () => {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 20 }}>
           {
             socialMediaLinks.map((item) => (
-              <Link to={item.link} style={{ margin: 8 }}>
+              <Link target="_blank" to={item.link} style={{ margin: 8 }}>
                 {item.icon}
               </Link>
             ))

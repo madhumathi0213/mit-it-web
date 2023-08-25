@@ -1,13 +1,12 @@
 import { Box, Tabs } from "@mantine/core";
 import React from "react";
-import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
 import VisionContent, { Academics, AssociationContent, HodMessageContent, MissionContent } from "./MissionVision";
 import COLORS from "../../theme/color";
 
 
 const AboutUsContent = () => {
   return (
-    <Box px={150} mt={250} style={{ justifyContent: 'space-between', alignItems: 'center' }} >
+    <Box>
       <Tabs
         color={COLORS.primary}
         variant="outline"

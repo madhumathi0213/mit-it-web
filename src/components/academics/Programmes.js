@@ -1,14 +1,10 @@
 import { Box, Table } from "@mantine/core";
 import React from "react";
 
-const courses = [
-  { id: 1, program: 'M.Tech - Information Technology (Full Time)', yos: 2007 },
-  { id: 2, program: 'M.Tech - Information Technology (Part Time)', yos: 2011 }
-]
 
-const PgProgrammes = () => {
+const Programmes = ({data}) => {
   return (
-    <Box  px={20}>
+    <Box px={20}>
       <Table horizontalSpacing={'md'} verticalSpacing={'md'}>
         <thead>
           <tr>
@@ -18,8 +14,8 @@ const PgProgrammes = () => {
         </thead>
         <tbody>
           {
-            courses.map(item =>{
-              return(
+            data?.map(item => {
+              return (
                 <tr key={item?.id}>
                   <td>{item.program}</td>
                   <td>{item.yos}</td>
@@ -33,4 +29,4 @@ const PgProgrammes = () => {
   )
 }
 
-export default PgProgrammes;
+export default Programmes;
