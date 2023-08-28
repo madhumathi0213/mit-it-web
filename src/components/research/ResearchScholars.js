@@ -8,7 +8,7 @@ const ResearchScholars = ({ data }) => {
   return (
     <Box px={20}>
       <Text size={28} color={COLORS.primary} weight={600} mb={20}>Research Scholars</Text>
-      <Table horizontalSpacing={'md'} verticalSpacing={'md'}>
+      <Table  horizontalSpacing={'sm'} verticalSpacing={'sm'} fontSize={20} bgcolor={COLORS.white} sx={{ borderRadius: 12 }} highlightOnHover withColumnBorders>
         <thead>
           <tr>
             <th>S. no.</th>

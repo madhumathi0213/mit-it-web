@@ -1,11 +1,12 @@
 import { Box, Table, Text } from "@mantine/core";
 import React from "react";
+import COLORS from "../../theme/color";
 
 
 const Regulations = ({ data }) => {
   return (
     <Box px={20}>
-      <Table horizontalSpacing={'md'} verticalSpacing={'md'}>
+      <Table  horizontalSpacing={'sm'} verticalSpacing={'sm'} fontSize={20} bgcolor={COLORS.white} sx={{ borderRadius: 12 }} highlightOnHover withColumnBorders>
         <thead>
           <tr>
             <th>Regulation</th>

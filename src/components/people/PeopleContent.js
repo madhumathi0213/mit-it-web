@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 
 
 const Wrapper = styled.div`
-margin-top:170px;
+// margin-top:170px;
 img {
   // filter: grayscale(100%);
 },
@@ -27,9 +27,8 @@ img {
 const PeopleContent = () => {
   return (
     <Wrapper>
-      {/* <CommonHeader title={'Our Teachers'} /> */}
       <Box align='center' w={'100%'}>
-        <Title align="center" color={COLORS.primary} size={40} weight={500} mt={40} mb={4}>Our People</Title>
+        <Title align="center" color={COLORS.primary} size={40} weight={500} mb={4}>Our People</Title>
         <Box w={'10%'} mb={40} sx={{ borderBottom: '4px solid', borderHeight: 20, borderColor: COLORS.textPink }}></Box>
 
       </Box>

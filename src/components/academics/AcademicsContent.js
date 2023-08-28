@@ -40,17 +40,17 @@ const AcademicsContent = () => {
         </Tabs.List>
         <Tabs.Panel value="programmes" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
-            <Text p={20} size={24}>UG Programmes</Text>
+            <Text pl={20} pt={10} size={28} color={COLORS.primary} weight={600} mb={20}>UG Programmes</Text>
             <Programmes data={ugCourses} />
-            <Text p={20} size={24}>PG Programmes</Text>
+            <Text pl={20} mt={20} size={28} color={COLORS.primary} weight={600} mb={20}>PG Programmes</Text>
             <Programmes data={pgCourses} />
           </Box>
         </Tabs.Panel>
         <Tabs.Panel value="regulations" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
-            <Text p={20} size={24}>UG Regulation</Text>
+            <Text pl={20} pt={10} size={28} color={COLORS.primary} weight={600} mb={20}>UG Regulation</Text>
             <Regulations data={ugRegulations} />
-            <Text p={20} size={24}>PG Regulation</Text>
+            <Text pl={20} mt={20} size={28} color={COLORS.primary} weight={600} mb={20}>PG Regulation</Text>
             <Regulations data={pgRegulations} />
           </Box>
         </Tabs.Panel>

@@ -5,7 +5,7 @@ import COLORS from "../../theme/color";
 
 const ResearchSection = () => {
   return (
-    <Box>
+    <Box px={10}>
       <Box style={{ marginBottom: 20 }}>
         <Text size={32} color={COLORS.primary} weight={600}>Thrust Areas</Text>
       </Box>

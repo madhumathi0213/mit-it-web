@@ -56,7 +56,7 @@ const NavBar = () => {
           Research
         </Link>
         <Link
-          to="/students"
+          to="/students-corner"
           className="txt"
           style={{ color: COLORS.white }}
         >

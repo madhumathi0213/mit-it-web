@@ -3,6 +3,10 @@ import React from "react";
 import COLORS from "../../theme/color";
 import ResearchSection from "./ResearchSection";
 import ResearchScholars from "./ResearchScholars";
+import OnRollScholars from "./OnRollScholars";
+import Publications from "./Publications";
+import Patents from "./Patent";
+import Thesis from "./Thesis";
 
 const ResearchContent = () => {
   return (
@@ -34,9 +38,9 @@ const ResearchContent = () => {
       >
         <Tabs.List>
           <Tabs.Tab value="thrust-areas" >Thrust Areas</Tabs.Tab>
-          {/* <Tabs.Tab value="staff" >Collaborations</Tabs.Tab> */}
-          {/* <Tabs.Tab value="supervisors" >Supervisors</Tabs.Tab> */}
+          <Tabs.Tab value="supervisors" >Supervisors</Tabs.Tab>
           <Tabs.Tab value="scholars">Research Scholars</Tabs.Tab>
+          <Tabs.Tab value="on-roll-scholars" >Research Scholars (on-roll)</Tabs.Tab>
           <Tabs.Tab value="publications">Publications</Tabs.Tab>
           <Tabs.Tab value="patents">Patents</Tabs.Tab>
           <Tabs.Tab value="theses">Theses</Tabs.Tab>
@@ -46,9 +50,34 @@ const ResearchContent = () => {
             <ResearchSection />
           </Box>
         </Tabs.Panel>
+        <Tabs.Panel value="supervisors" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            {/* <ResearchScholars /> */}
+          </Box>
+        </Tabs.Panel>
         <Tabs.Panel value="scholars" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
             <ResearchScholars />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="on-roll-scholars" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <OnRollScholars />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="publications" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <Publications />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="patents" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <Patents />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="theses" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <Thesis />
           </Box>
         </Tabs.Panel>
         <Tabs.Panel value="student" pl="xs">
