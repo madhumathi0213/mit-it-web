@@ -7,7 +7,7 @@ import COLORS from "../../theme/color";
 const Publications = ({ data }) => {
   return (
     <Box px={20} miw={'65vw'}>
-      <Text size={28} color={COLORS.primary} weight={600} mb={20}>patent</Text>
+      <Text size={28} color={COLORS.primary} weight={600} mb={20}>Publications</Text>
       <Box maw={'63vw'} mah={400} sx={{ overflow: 'auto' }}>
         <Table horizontalSpacing={'sm'} verticalSpacing={'sm'} fontSize={20} bgcolor={COLORS.white} sx={{ borderRadius: 12 }} highlightOnHover withColumnBorders>
           <thead>

@@ -1,8 +1,6 @@
 import React from "react";
-import { Box, Tabs } from "@mantine/core";
-import Header from "../components/Header/Header";
+import { Box } from "@mantine/core";
 import AboutUsContent from "../components/commonComponents/AboutUsContent";
-import Footer from "../components/Footer/Footer"
 import Layout from "../components/layout/Layout";
 
 

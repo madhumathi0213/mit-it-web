@@ -15,7 +15,7 @@ const LayoutWrapper = styled.div`
   cursor: pointer;
   // position: fixed;
   position:absolute;
-  right: -15.2%;
+  right: -13.7%;
   bottom: 50px;
   padding: 12px 16px;
   transform: rotate(-90deg);
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
   const path = typeof window !== 'undefined' ? window.location.pathname : '';
   const [opened, { open, close }] = useDisclosure(false);
   return (
-    <LayoutWrapper style={{ width: '100%' }}>
+    <LayoutWrapper>
       <Header withLayout={path === '/'} />
       <Box px={150} mt={path === '/' ? 0 : 250} style={{ justifyContent: 'space-between', alignItems: 'center' }} >
         {children}

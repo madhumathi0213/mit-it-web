@@ -1,6 +1,10 @@
 import { Box, Tabs, Text } from "@mantine/core";
 import React from "react";
 import COLORS from "../../theme/color";
+import Awards from "./Awards";
+import CompaniesVisited from "./companiesVisited";
+import AbroadOpportunities from "./abroadOpportunities";
+import InternshipList from "./InternshipsList";
 
 const StudentCornerContent = () => {
   return (
@@ -9,7 +13,7 @@ const StudentCornerContent = () => {
         color={COLORS.primary}
         variant="outline"
         orientation="vertical"
-        defaultValue="thrust-areas"
+        defaultValue="awards"
         radius="xs"
         styles={(theme) => ({
           tab: {
@@ -38,6 +42,22 @@ const StudentCornerContent = () => {
         </Tabs.List>
         <Tabs.Panel value="awards" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <Awards />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="placements" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <CompaniesVisited />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="opportunities" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <AbroadOpportunities />
+          </Box>
+        </Tabs.Panel>
+        <Tabs.Panel value="internship" pl="xs">
+          <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
+            <InternshipList />
           </Box>
         </Tabs.Panel>
       </Tabs>

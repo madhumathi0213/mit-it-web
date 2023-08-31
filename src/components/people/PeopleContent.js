@@ -37,7 +37,7 @@ const PeopleContent = () => {
           teachers?.map(item => {
             return (
               <Box m={20} sx={{ cursor: 'pointer', }}>
-                <Link className="link" to={item?.irns} target="_blank">
+                <Link className="link" to={`/staff/${item.id}`} target="_blank">
                   <img
                     src={item?.image}
                     height={300}

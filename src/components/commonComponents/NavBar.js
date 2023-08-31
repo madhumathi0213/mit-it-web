@@ -12,7 +12,7 @@ padding-right:150px;
 .txt {
   font-weight:500;
   text-decoration:none;
-  margin-right:8px
+  margin-right:8px;
 }
 `
 
@@ -69,7 +69,7 @@ const NavBar = () => {
         >
           Facilities
         </Link>
-        <Link
+        {/* <Link
           to="/events"
           className="txt"
           style={{ color: COLORS.white }}
@@ -82,6 +82,13 @@ const NavBar = () => {
           style={{ color: COLORS.white }}
         >
           Alumni
+        </Link> */} 
+        <Link
+          to="/newsletter"
+          className="txt"
+          style={{ color: COLORS.white }}
+        >
+          Newsletter
         </Link>
       </div>
     </NavbarWrapper>

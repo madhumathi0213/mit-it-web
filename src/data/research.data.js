@@ -87,136 +87,6 @@ export const publications = [
     yop: '2022',
     impact_factor: '7.429'
   },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
-  // {
-  //   faculty_name: '',
-  //   title: '',
-  //   author: '',
-  //   journal: '',
-  //   doi: '',
-  //   vip_no: '',
-  //   yop: '',
-  //   impact_factor: ''
-  // },
 ];
 
 export const patent = [
@@ -392,216 +262,6 @@ export const onRollScholars = [
     profile: 'https://in.linkedin.com/in/blessy-jenila-r-2618b3205',
     image: 'https://imgur.com/6pd3hZi.jpg'
   },
-  // {
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },{
-  //   name:'',
-  //   mail:'',
-  //   mobile:'',
-  //   yoa:'',
-  //   supervisor:'',
-  //   domain:'',
-  //   research_title:'',
-  //   mos:'',
-  //   profile:'',
-  //   image:''
-  // },
 ]
 export const researchScolars = [
   {
@@ -748,4 +408,24 @@ export const researchScolars = [
     domain: ['Deep Learning', 'Emotion Analysis'],
     yor: '2021'
   },
+]
+
+export const supervisorsList = [
+  {
+    name: 'Dr. M.R. Sumalatha',
+    recognition_no: '1440380',
+    designation: 'Professor',
+    mail: 'sumalatha.ramachandran@gmail.com',
+    domain: ['High Performance Computing', 'Data Analysis', 'Distributed Systems'],
+    scholar_link: 'http://scholar.google.co.in/citations?user=OkIGkCgAAAAJ',
+    image:'https://imgur.com/S8rur5P.jpg'
+  }, {
+    name: 'Dr. Dhananjay Kumar',
+    recognition_no: '8240013',
+    designation: 'Professor',
+    mail: 'dhananjay@annauniv.edu',
+    domain: ['Mobile Commun and Computing','Video Streaming and Analysis'],
+    scholar_link: 'http://scholar.google.co.in/citations?user=OF9U2GMAAAAJ',
+    image:'https://imgur.com/gLt3R4W.png'
+  }
 ]

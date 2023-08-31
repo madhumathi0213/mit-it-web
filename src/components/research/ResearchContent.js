@@ -7,6 +7,7 @@ import OnRollScholars from "./OnRollScholars";
 import Publications from "./Publications";
 import Patents from "./Patent";
 import Thesis from "./Thesis";
+import SupervisorsList from "./SupervisorsList";
 
 const ResearchContent = () => {
   return (
@@ -52,7 +53,7 @@ const ResearchContent = () => {
         </Tabs.Panel>
         <Tabs.Panel value="supervisors" pl="xs">
           <Box mb={20} ml={40} sx={{ backgroundColor: COLORS.background, borderRadius: 16, paddingBottom: 20 }}>
-            {/* <ResearchScholars /> */}
+            <SupervisorsList />
           </Box>
         </Tabs.Panel>
         <Tabs.Panel value="scholars" pl="xs">
