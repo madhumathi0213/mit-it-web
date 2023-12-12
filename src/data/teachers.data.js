@@ -48,6 +48,23 @@ export const teachers = [
         image: 'https://imgur.com/gLt3R4W.png',
     },
     {
+        name: 'Dr. R.Geetha Ramani',
+        role: 'Professor',
+        scholar_link:'https://scholar.google.co.in/citations?user=2Nsi39EAAAAJ',
+        irns:'https://annauniv.irins.org/profile/117865',
+        research_area: [
+            'Machine Learning',
+             'Artificial Intelligence', 
+             'Data Mining',
+             'Evolutionary Algorithms'
+        ],
+        mail:'rgeetha@auist.net',
+        mobile:'' ,
+        id:'6312/6472',
+        image: 'https://imgur.com/K5rRBpz.png',
+
+    },
+    {
         name: 'Dr. Radha Senthilkumar',
         role: 'Associate Professor',
         id: '6311/6471',
@@ -89,7 +106,8 @@ export const teachers = [
         irns: 'https://annauniv.irins.org/profile/97757',
         research_area: ['Internet of Things', 'Machine Learning', 'Computational Intelligence', 'Software Engineering'],
         mobile: '97888 56412'
-    }, {
+    }, 
+    {
         name: 'Dr. J. Dhalia Sweetlin',
         role: 'Associate Professor',
         scholar_link: 'https://scholar.google.co.in/citations?user=uMiGifoAAAAJ',
@@ -99,7 +117,8 @@ export const teachers = [
         irns: 'https://annauniv.irins.org/profile/117887',
         research_area: ['Medical Image Processing', 'Algorithm Analysis', 'Bioinspired Computing'],
         mobile: '044 22516015'
-    }, {
+    }, 
+    {
         name: 'Dr. B. Lydia Elizabeth',
         role: 'Asst. Professor [Sl. Grade]',
         scholar_link: 'http://scholar.google.co.in/citations?user=N4fVaTsAAAAJ',
@@ -128,7 +147,7 @@ export const teachers = [
         mail: 'hemalatham.ch@gmail.com',
         irns: 'https://annauniv.irins.org/profile/117885',
         research_area: ['Computer Vision', 'Natural Language Processing', 'Pattern Recognition', 'Image Processing'],
-        mobile: '98848 7495'
+        mobile: '98848 74955'
     },
     {
         name: 'Dr. S. K. Lavanya',
