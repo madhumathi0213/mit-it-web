@@ -1006,7 +1006,7 @@ export const onRollScholars = [
     research_titile: 'Title	Enhancement in vision based identification and recognition of individuals in group',
     mos: 'nFull Time',
     profile: '',
-    image: ''
+    image: 'https://imgur.com/OkTdNpZ.png'
   },
   {
     name: 'J Christina',
@@ -1130,7 +1130,7 @@ export const onRollScholars = [
     research_title: 'Machine Learning Models for Emotion Detection and Analysis in Social Media Networks',
     mos: 'Part time',
     profile: '',
-    image: ''
+    image: 'https://imgur.com/WTfYsyA.png'
   },
   {
     name: 'R S DHANALAKSHMI',
@@ -1142,7 +1142,7 @@ export const onRollScholars = [
     research_titile: 'Fake News Detection in Online Social Media Networks Using Deep Learning Techniques',
     mos: 'Full Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/pGQWzI2.png',
   },
   {
     name: 'Nirenjena S',
@@ -1154,7 +1154,7 @@ export const onRollScholars = [
     research_title: 'An Intelligent Edge Computing centric Network Security Platform for Internet of Things',
     mos: 'Part time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/7JPMTXX.png',
   },
   {
     name: 'D.Bala Gayathri',
@@ -1166,7 +1166,7 @@ export const onRollScholars = [
     research_title: 'Enhancing Security and privacy in Healthcare systems using Blockchain Technology',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/ucxYc3u.png',
   },
   {
     name: 'Vignesh S',
@@ -1178,7 +1178,7 @@ export const onRollScholars = [
     research_title: 'Smart cloud Deployment Models and Inferencing Strategies for Context aware Cloud',
     mos: 'Part time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/Ufx4g68.png',
   },
   {
     name: 'Muthahara Fathima.S',
@@ -1190,7 +1190,7 @@ export const onRollScholars = [
     research_title: 'Sensitive Data handling in Information Centric Networking',
     mos: 'Full Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/ydwZmSd.png',
   },
   {
     name: 'Sathia Priya R',
@@ -1202,7 +1202,7 @@ export const onRollScholars = [
     research_title: 'Enhancing Reliability in Big Data Frameworks',
     mos: 'Part-time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/fmNZk94.png',
   },
   {
     name: 'Shanmugam.P',
@@ -1214,7 +1214,7 @@ export const onRollScholars = [
     research_title: 'Financial crime illustration',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/N1H3OaK.png',
   },
   {
     name: 'BALAJI K M',
@@ -1226,7 +1226,7 @@ export const onRollScholars = [
     research_title: 'Hybrid Techniques for Optimized Spectrum Utilization in Heterogeneous Cognitive Networks',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/w42Vaiz.png',
   },
   {
     name: 'Sylvia Irish S',
@@ -1238,7 +1238,7 @@ export const onRollScholars = [
     research_title: 'Machine learning models for early detection of Ischemic Stroke',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/uga5flA.png',
   },
   {
     name: 'ARIVAZHAGAN.C',
@@ -1250,7 +1250,7 @@ export const onRollScholars = [
     research_title: 'Minimizing delay in IoT using Fog Computing',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/0Fz0DGQ.png',
   },
   {
     name: 'ANGEL BARAKKA J',
@@ -1262,7 +1262,7 @@ export const onRollScholars = [
     research_title: 'Deep Learning Models for Emotions Recognition in Social Media',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/78a8DAx.png',
   },
   {
     name: 'ANGEL BARAKKA J',
@@ -1274,11 +1274,12 @@ export const onRollScholars = [
     research_title: 'Deep Learning Models for Emotions Recognition in Social Media',
     mos: 'Part Time',
     profile: '',
-    image: '',
+    image: 'https://imgur.com/78a8DAx.png',
   },
   {
     name: 'S. VINITHA',
     mail: 'vinmano2001@gmail.com',
+    
     mobile: '9894226675',
     yoa: 'January-2023',
     supervisor: 'Dr. B. Lydia Elizabeth',
@@ -1286,7 +1287,7 @@ export const onRollScholars = [
     research_title: 'Privacy Preserving in Machine Learning',
     mos: 'Part Time',
     profile: '',
-    image: ''
+    image: 'https://imgur.com/e6Zqeuz.png'
   },
 
 ]
