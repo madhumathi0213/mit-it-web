@@ -286,3 +286,13 @@ export const nonTeachingStaff = [
         role: ''
     },
 ]
+
+export const placementDetails = [
+    {
+        id:1,
+        company_name:'NielsenIQ',
+        no_of_students:5 ,
+        package:10,
+        year:2022
+    }
+]

@@ -75,14 +75,14 @@ const NavBar = () => {
           style={{ color: COLORS.white }}
         >
           Events
-        </Link>
+        </Link> */}
         <Link
-          to="/alumini"
+          to="/alumni"
           className="txt"
           style={{ color: COLORS.white }}
         >
           Alumni
-        </Link> */} 
+        </Link>
         <Link
           to="/newsletter"
           className="txt"

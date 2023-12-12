@@ -14,6 +14,7 @@ const Footer = () => {
         <Text c={COLORS.white} weight={500} size={24}>{footerData.department}</Text>
         <Text c={COLORS.white} size={14}>{footerData.university}</Text>
         <Text c={COLORS.white} size={14}>{footerData.address}</Text>
+        <Text c={COLORS.white} size={14}>{footerData.state}</Text>
         <Text c={COLORS.white} size={14}>{footerData.pincode}</Text>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 20 }}>
           {

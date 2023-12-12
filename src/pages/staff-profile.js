@@ -8,7 +8,7 @@ import { Link } from "gatsby";
 const data = [
   {
     name: 'Dr Radha Senthilkumar',
-    role: 'Professor',
+    role: 'Associate Professor',
     email: 'radhasenthilkumar@gmail.com',
     profile: 'https://vidwan.inﬂibnet.ac.in//proﬁle/262780',
     orchid_id: '0000-0003-2656-4237',

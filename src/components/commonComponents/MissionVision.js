@@ -7,7 +7,12 @@ export const MissionContent = () => {
   return (
     <Box px={20}>
       <Text color={COLORS.primary} align="center" mb={20} weight={600} size={28}>Mission</Text>
-      <Text size={20} style={{ textAlign: 'justify' }}>{HeroSection.mission}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission1}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission2}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission3}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission4}</Text>
+      <Text size={20} style={{ textAlign: 'justify' }}>- {HeroSection.mission5}</Text>
     </Box>
   )
 }
@@ -27,7 +32,7 @@ export const AssociationContent = () => {
 export const DepartmentNumbers = () => {
   return (
     <Box px={20} pt={10}>
-      <Text mt={24} color={COLORS.primary} mb={20} weight={600} size={28}>Succession list of HOD's</Text>
+      <Text mt={24} color={COLORS.primary} mb={20} weight={600} size={28}>Student's count</Text>
       <Box>
         <Table horizontalSpacing={'sm'} verticalSpacing={'sm'} fontSize={20} bgcolor={COLORS.white} sx={{ borderRadius: 12 }} highlightOnHover withColumnBorders>
           <thead>

@@ -1,0 +1,9 @@
+export const alumniData = {
+    association: `IT-Alumni Association (ITAA) was a department level alumni association started in the year 2022 under the guidance of Dr. Dhananjay Kumar, then Head of the Department of Information and directly under the tutelage of Dr. G. Rajesh, present ITA in charge. ITAA aims to narrow down the bridge between the passed-out students and current students of Information Technology. Just like its parent body Information Technology Association (ITA), IT-Alumni Association (ITAA) provides students with opportunities to work with the passed-out seniors thereby enabling an effective forum for knowledge sharing. ITAA also aims to raise the funds for the department with the contributions from passed out students for improving the infrastructure of the department.`,
+    homeComming: {
+        title: 'Home-Coming Function: Samhita',
+        desc: 'Department of Information Technology conducts Samhita is a National Level Technical Symposium held at Madras Institute of Technology Campus, Anna University, Chennai. It is organized by the Information Technology Association (ITA). Samhita by ITA also serves as homecoming function for alumni every year. It encompasses an open dinner event and provides an interaction stage for current students along with passed out students with respect to opportunities to herald their technical prowess and quiz their aptitude on coding, designing and other ambidextrous domain concepts. Samhita’s home coming event covets to bridge the gap between different industries by bringing department alumni and current students. Here are some snapshots of our homecoming event SAMHITA 23.',
+        images: [''],
+    },
+   
+}

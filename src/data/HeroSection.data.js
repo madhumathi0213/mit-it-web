@@ -6,7 +6,7 @@ export const HeroSection = {
     mission2: 'To stimulate the growth of graduates and doctorates, who will enter the workforce as productive IT engineers, researchers, and entrepreneurs with necessary soft skills, and continue higher professional education with competence in the global market',
     mission3: 'To enable seamless collaboration with the IT industry and Government for consultancy and sponsored research',
     mission4: 'To cater to cross-cultural, multinational, and demographic diversity of students.',
-    mission5: '6.To educate the students on the social, ethical, and moral values needed to make significant contributions to society.',
+    mission5: 'To educate the students on the social, ethical, and moral values needed to make significant contributions to society.',
     courseTitle: `Department of Information Technology has two UG programmes namely:`,
     ugDesc: `B.Tech. (Information Technology) and B.Tech. (Artificial Intelligence & Data Science). The UG 
     degrees focus on providing students with strong foundations including Software Engineering, 

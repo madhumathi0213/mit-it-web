@@ -15,12 +15,13 @@ const InternshipList = () => {
             <th>Count</th>
             <th>Salary</th>
             <th>Duration</th>
+            <th>Batch</th>
             <th>Year</th>
           </tr>
         </thead>
         <tbody>
           {
-            internshipList?.batch2015?.map((item, index) => {
+            internshipList?.map((item, index) => {
               return (
                 <tr key={index}>
                   <td>{index + 1}</td>
@@ -28,6 +29,7 @@ const InternshipList = () => {
                   <td>{item.count}</td>
                   <td>{item?.salary}</td>
                   <td>{item?.duration}</td>
+                  <td>{item?.batch}</td>
                   <td>{item?.year}</td>
                 </tr>
               )
