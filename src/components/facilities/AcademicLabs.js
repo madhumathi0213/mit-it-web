@@ -6,43 +6,43 @@ let data = [
     name: 'Programming lab 1',
     computer_count: 58,
     incharge: 'Mr. V. Saravanan',
-    image: 'https://imgur.com/Wp6WVMe.jpg'
+    image: 'https://imgur.com/M0kTkNV.png'
   },
   {
     name: 'Programming lab 2',
     computer_count: 66,
     incharge: 'Mr. V. Kannan',
-    image: 'https://imgur.com/PzT3ATq.jpg'
+    image: 'https://imgur.com/kOqJZFD.png'
   },
   {
     name: 'Hardware lab',
     computer_count: 58,
     incharge: 'Mr. V. Saravanan',
-    image: 'https://imgur.com/Ddrb9Ds.jpg'
+    image: 'https://imgur.com/vX6zNcu.png'
   },
   {
     name: 'Project Lab',
     computer_count: 70,
     incharge: 'Mr. J. Babu',
-    image: 'https://imgur.com/djqx3gw.jpg'
+    image: 'https://imgur.com/POsUAaV.png'
   },
   {
     name: 'PG Laboratory',
     computer_count: 58,
     incharge: 'Ms.G.Senbagam',
-    image: 'https://imgur.com/djqx3gw.jpg'
+    image: 'https://imgur.com/xM3idBB.png'
   },
   {
     name: 'Data Analytics Laboratory',
     computer_count: 56,
     incharge: 'Ms.G.Senbagam',
-    image: 'https://imgur.com/6nFZ6x6.jpg'
+    image: 'https://imgur.com/Hd4BGBV.png'
   },
   {
     name: 'Sensor Network Lab',
     computer_count: 26,
     incharge: 'Mr. V. Saravanan',
-    image: 'https://imgur.com/fAamXyO.jpg'
+    image: 'https://imgur.com/W8iQQtG.png'
   },
 ]
 
