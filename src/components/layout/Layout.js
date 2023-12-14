@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         {children}
       </Box>
       <Footer />
-      <Box>
+      {/* <Box>
         <Box
           className="events-box"
           onClick={open}
@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
             <Text color={COLORS.white} size={20} weight={600}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announcements &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Text>
           </Box>
         </Box>
-      </Box>
+      </Box> */}
       <Drawer opened={opened} size={'md'} onClose={close} position="right" title="Events">
         {/* Drawer content */}
       </Drawer>
