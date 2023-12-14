@@ -61,7 +61,7 @@ const TeacherTemplate = ({ pageContext }) => {
                   }
                 </Box>
                 <Box mt={20}>
-                  <Text color={COLORS.primaryBg} size={32}>Experience</Text>
+                  <Text color={COLORS.primaryBg} size={32}>Qualification</Text>
                   {
                     item?.education?.map((education, j) => {
                       return (
