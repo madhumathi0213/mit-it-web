@@ -127,8 +127,7 @@ const data = [
         Notes in Networks and Systems , Volume 645, Year 2023, Pages '603--613 '`
       },
       {
-        title:`'Ensemble of Behavioral Features for Early Detection of Autism Spectrum 
-        Disorder'`,
+        title:'Ensemble of Behavioral Features for Early Detection of Autism Spectrum Disorder',
         desc:`'Radha, Senthilkumar Abinaya, M. N. Divya Darshini, Kannan Kamalnath, K. N. Jayanthi, P. ' 
         Advances in Intelligent Systems and Computing, Volume 1449, Year 2023, Pages '681--694 ' `
       },{

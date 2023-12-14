@@ -1319,7 +1319,7 @@ export const supervisorsList = [
     mobile: '6314/6461',
     domain: ['Networks', 'Digital Image Processing', 'Artificial Intelligence', 'Computer Vision', 'Robotics', 'Multimedia Networks'],
     scholar_link: '8Gry04kAAAAJ',
-    image: '',
+    image: 'https://imgur.com/LVChO5q.png',
   },
   {
     name: 'Dr. Radha Senthilkumar',
@@ -1329,7 +1329,7 @@ export const supervisorsList = [
     mobile: '6311/6471',
     domain: ['Data Mining', 'Machine learning', 'Deep Learning'],
     scholar_link: 'zDaLSU4AAAAJ',
-    image: '',
+    image: 'https://imgur.com/nB7YbLC.png',
   },
   {
     name: 'Dr. P. Kola Sujatha',
@@ -1339,7 +1339,7 @@ export const supervisorsList = [
     mobile: '6316/6313',
     domain: ['Intrusion Detection System', 'Artificial Intelligence', 'Machine Learning', 'Data Mining', 'Big Data Analytics', 'Soft Computing'],
     scholar_link: 'PvVP2IsAAAAJ',
-    image: '',
+    image: 'https://imgur.com/KWsT9Hj.png',
   },
   {
     name: 'Dr. S. Umamaheswari',
@@ -1349,7 +1349,7 @@ export const supervisorsList = [
     mobile: '6304/6474',
     domain: ['VLSI', 'Embedded Systems'],
     scholar_link: 'My9jdJkAAAAJ',
-    profile: '',
+    image: 'https://imgur.com/1GeD1LC.png',
   },
   {
     name: 'Dr.G.Rajesh',
@@ -1359,7 +1359,7 @@ export const supervisorsList = [
     mobile: '6023',
     domain: ['Internet of Things', 'Machine Learning', 'Computational Intelligence', 'Software Engineering'],
     scholar_link: '8GV1bJEAAAAJ',
-    profile: '',
+    image: 'https://imgur.com/Q0Gj56n.png',
   },
   {
     name: 'Dr. J. Dhalia Sweetlin',
@@ -1369,7 +1369,7 @@ export const supervisorsList = [
     mobile: '6015',
     domain: ['Medical Image Processing', 'Bio Inspired Systems', 'Data Analytics', 'Pattern Recognition'],
     scholar_link: 'uMiGifoAAAAJ',
-    profile: '',
+    image: 'https://imgur.com/ghuDJXe.png',
   },
   {
     name: 'Dr.B. Lydia Elizabeth',
@@ -1379,7 +1379,7 @@ export const supervisorsList = [
     mobile: '6025',
     domain: ['Cloud Security', 'Information Security', 'Computer Networks', 'Mobile Communication'],
     scholar_link: 'N4fVaTsAAAAJ',
-    profile: '',
+    image: 'https://imgur.com/UPwF8Vr.png',
   },
   {
     name: 'Dr. D. Sangeetha',
@@ -1389,7 +1389,7 @@ export const supervisorsList = [
     mobile: '6352/6472',
     domain: ['Cloud Computing', 'Information Security', 'Cyber security', 'Mobile Application development', 'Data analytics', 'Web Services', 'Database Management System'],
     scholar_link: 'VEujlAYAAAAJ',
-    profile: '',
+    image: 'https://imgur.com/57rUDSQ.png',
   },
 ]
 
