@@ -42,7 +42,7 @@ const People = () => {
                 <Box m={20} sx={{ cursor: 'pointer', }}>
                   <Link className="link" key={item.id} to={`/people/${item.name}`}>
                     <img
-                      src={item?.image}
+                      src={item?.photo}
                       height={300}
                       width={250}
                       style={{ borderRadius: 16 }}

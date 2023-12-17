@@ -2203,7 +2203,7 @@ exports.createPages = async ({ actions }) => {
       mail: '',
       mobile: '94443 64629',
       role: 'Administrative Staff',
-      image:'https://imgur.com/8Gd2bW3.png'
+      photo:'https://imgur.com/8Gd2bW3.png'
     },
     {
       name: 'Mr. A. Augustin',
@@ -2211,7 +2211,7 @@ exports.createPages = async ({ actions }) => {
       mail: 'augustinmlr2007@gmail.com',
       mobile: '98400 85473',
       role: 'Administrative Staff',
-      image:'https://imgur.com/D6lfDbc.png',
+      photo:'https://imgur.com/D6lfDbc.png',
     },
     {
       name: 'Mr. Nallathambi .K',
@@ -2219,9 +2219,8 @@ exports.createPages = async ({ actions }) => {
       mail: '',
       mobile: '70940 14103',
       role: 'Administrative Staff',
-      image:'https://imgur.com/xHoo0JL.png'
+      photo:'https://imgur.com/xHoo0JL.png'
     },
-
   ];
 
   await Promise.all(

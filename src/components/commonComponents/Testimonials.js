@@ -1,9 +1,12 @@
-import { Box, Image, Text } from "@mantine/core";
-import React from "react";
+import { Box, Image, Modal, Text } from "@mantine/core";
+import React, { useState } from "react";
 import COLORS from "../../theme/color";
 import { styled } from "styled-components";
 import { Carousel } from "@mantine/carousel";
 import { testimonials } from "../../data/testimonial.data";
+import { useDisclosure } from "@mantine/hooks";
+
+
 const TestimonialWrapper = styled.div`
 .container {
   box-shadow: 4px 8px 21px 7px rgba(0,0,0,0.2);
@@ -14,6 +17,9 @@ const TestimonialWrapper = styled.div`
 `
 
 const Testimonials = () => {
+  const [opened, { open, close }] = useDisclosure(false);
+  const [data, setData] = useState()
+
   return (
     <TestimonialWrapper>
       <Box style={{ marginTop: 20, justifyContent: 'space-between', alignItems: 'center' }}>
@@ -61,17 +67,19 @@ const Testimonials = () => {
                         {item.affiliation}
                       </Text>
                       <Text mt={20} color={COLORS.textGray}
-                       sx={{
-                        display: '-webkit-box',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        WebkitLineClamp: 3, // Number of lines before truncation
-                        WebkitBoxOrient: 'vertical',
-                      }}
-                       align='justify' size={14}>
+                        sx={{
+                          display: '-webkit-box',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          WebkitLineClamp: 3, // Number of lines before truncation
+                          WebkitBoxOrient: 'vertical',
+                        }}
+                        align='justify' size={14}>
                         {item.message}
                       </Text>
-                      <Text align="left" sx={{cursor:'pointer'}} color={COLORS.textBlueLight} size={12} underline>Read more</Text>
+                      <Box onClick={() => { open(); setData(item) }}>
+                        <Text align="left" sx={{ cursor: 'pointer' }} color={COLORS.textBlueLight} size={12} underline>Read more</Text>
+                      </Box>
                     </Box>
                   </Box>
                 </Carousel.Slide>
@@ -80,6 +88,21 @@ const Testimonials = () => {
           </Carousel>
         </div>
       </Box>
+      <Modal size={"lg"} opened={opened} onClose={close}>
+        <Box onClick={open} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+          <Image
+            src={data?.photo}
+            height={160}
+            width={160}
+            radius={'100%'}
+            fit='contain'
+            alt={data?.name}
+          />
+          <Text align="center" weight={500} size={20}>{data?.name}</Text>
+          <Text align="center" className="text" color={COLORS.darkGray} size={16}>{data?.affiliation}</Text>
+          <Text mb={8} align="justify" color={COLORS.text} size={14}>{data?.message}</Text>
+        </Box>
+      </Modal>
     </TestimonialWrapper>
   )
 }

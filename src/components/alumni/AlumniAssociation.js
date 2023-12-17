@@ -7,8 +7,8 @@ const AlumniAssociation = () => {
   return (
     <Box px={10}>
       <Box style={{ marginBottom: 20 }}>
-        <Text size={32} color={COLORS.primary} weight={600}>Association</Text>
-        <Text size={20} style={{ textAlign: 'justify' }}>{alumniData.association}</Text>
+        <Text size={28} color={COLORS.primary} weight={600}>Association</Text>
+        <Text size={16} style={{ textAlign: 'justify' }}>{alumniData.association}</Text>
       </Box>
       
     </Box>

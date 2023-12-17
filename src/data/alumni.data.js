@@ -14,31 +14,82 @@ export const alumniData = {
 
 export const awards = [
     {
-        name:'Sai Aakash',
-        position:'Runner up 2018',
-        event:'Deaf Cricket WC',
-        desc:'Sai Aakash, A graduate from Department of Information Technology emerged as Runner up in Deaf Cricket World up 2018. An expert off spinner, Sai was crucial with couple of 3 wicket hauls and played a crucial role in reaching finals of the tournament. We staff members at our department have no words express our profound happiness and satisfaction on Sai’s historic achievement.',
-        image:'',
+        name: 'Sai Aakash',
+        position: 'Runner up 2018',
+        event: 'Deaf Cricket WC',
+        desc: 'Sai Aakash, A graduate from Department of Information Technology emerged as Runner up in Deaf Cricket World up 2018. An expert off spinner, Sai was crucial with couple of 3 wicket hauls and played a crucial role in reaching finals of the tournament. We staff members at our department have no words express our profound happiness and satisfaction on Sai’s historic achievement.',
+        image: 'https://imgur.com/rvyCHUX.png',
     },
     {
-        name:'Madonne Ashwin',
-        position:'3 National Awards Winner',
-        event:'Feature Film Director',
-        desc:'Madonne Ashwin has won the National Film Awards for Best Debut Director and Screenplay -Dialogues at the 68th National Film Awards. He earned the honours for his film Mandela. He has also received award from Former President Pranab Mukherjee in 2013. He is known for his wonderful works such as Dharmam - Best ShortFilm - National Award (2012) , Kurangu Bommai(2014), Mandela (2021) and Maaveeran (2023). IT Department feels extremely proud and privileged that he has been an important part of our growth as department achiever.',
-        image:'',
+        name: 'Madonne Ashwin',
+        position: '3 National Awards Winner',
+        event: 'Feature Film Director',
+        desc: 'Madonne Ashwin has won the National Film Awards for Best Debut Director and Screenplay -Dialogues at the 68th National Film Awards. He earned the honours for his film Mandela. He has also received award from Former President Pranab Mukherjee in 2013. He is known for his wonderful works such as Dharmam - Best ShortFilm - National Award (2012) , Kurangu Bommai(2014), Mandela (2021) and Maaveeran (2023). IT Department feels extremely proud and privileged that he has been an important part of our growth as department achiever.',
+        image: 'https://imgur.com/Uwu3ZpJ.png',
     },
     {
-        name:'Ashwin S',
-        position:'Holder of Guiness Record',
-        event:'Tennis ball Juggling using a Racquet',
-        desc:'Ashwin S holds the record for the most alternate hits (Juggling) with a tennis racket. His achievement was recognized by Guinness Book of World Records in December 2019. Later this record was broken by CHRISTIAN ROBERTO LÓPEZ RODRÍGUEZ in September 2020. Department of Information Technology is so proud of Ashwin’s Achievement and honoured to have him as our student.',
-        image:'',
+        name: 'Ashwin S',
+        position: 'Holder of Guiness Record',
+        event: 'Tennis ball Juggling using a Racquet',
+        desc: 'Ashwin S holds the record for the most alternate hits (Juggling) with a tennis racket. His achievement was recognized by Guinness Book of World Records in December 2019. Later this record was broken by CHRISTIAN ROBERTO LÓPEZ RODRÍGUEZ in September 2020. Department of Information Technology is so proud of Ashwin’s Achievement and honoured to have him as our student.',
+        image: 'https://imgur.com/erfN97n.png',
     },
     {
-        name:'Mani Parthasarathy',
-        position:'CEO of Cloudbankin Solutions',
-        event:'Formerly Habile Technologies',
-        desc:'Chennai-headquartered Cloudbankin (formerly known as Habile Technologies) has raised USD 400,000 in funding from angel investors, Upekkha: SaaS accelerator and fund, and Kube VC, a global venture capital firm. Details of his achievement can be read at : Chennai-based lending startup Cloudbankin secures USD 400,000 in funding - The Hindu (ampproject.org)',
-        image:'',
+        name: 'Mani Parthasarathy',
+        position: 'CEO of Cloudbankin Solutions',
+        event: 'Formerly Habile Technologies',
+        desc: 'Chennai-headquartered Cloudbankin (formerly known as Habile Technologies) has raised USD 400,000 in funding from angel investors, Upekkha: SaaS accelerator and fund, and Kube VC, a global venture capital firm. Details of his achievement can be read at : Chennai-based lending startup Cloudbankin secures USD 400,000 in funding - The Hindu (ampproject.org)',
+        image: 'https://imgur.com/Zpsdoe7.png',
     }
+]
+
+export const notableAlumni = [
+    {
+        name: "Mani Parthasarathy",
+        role: 'CEO',
+        company:'Cloudbankin',
+        linkedin: 'https://www.linkedin.com/in/maniparthasarathy/',
+        photo: 'https://imgur.com/IbH3lG6.png'
+    }, {
+        name: 'Vinoth Chandar',
+        role: 'Founder',
+        company:'One House',
+        linkedin: 'https://www.linkedin.com/in/vinothchandar/',
+        photo: 'https://imgur.com/Xx7IWnb.png'
+    },
+    {
+        name: 'Vishwa SSKM',
+        role: 'Founder of Halnode Tech / Software Engineer III',
+        company:' Google',
+        linkedin: 'https://www.linkedin.com/in/vishwa-murugan/',
+        photo: 'https://imgur.com/BrUKpWZ.png'
+    },
+    {
+        name: 'Prabakaran B',
+        role: 'Co-founder',
+        company:'Product @ Qoruz',
+        linkedin: 'https://www.linkedin.com/in/prabakaranbs/',
+        photo: 'https://imgur.com/kXPJKdA.png'
+    },
+    {
+        name: 'Boopesh M',
+        role: 'Founder',
+        company:'Cybermind Works',
+        linkedin: 'https://www.linkedin.com/in/prabakaranbs/',
+        photo: 'https://imgur.com/g6Ud500.png'
+    },
+    {
+        name: 'Jayasurya J',
+        role: 'co-Founder',
+        company:'Cybermind Works',
+        linkedin: 'https://www.linkedin.com/in/prabakaranbs/',
+        photo: 'https://imgur.com/bkgkc97.png'
+    },
+    {
+        name: 'Karthik Subramanian',
+        role: 'Senior Engineering Manager',
+        company:'Microsoft',
+        linkedin: 'https://www.linkedin.com/in/prabakaranbs/',
+        photo: 'https://imgur.com/0i6Pin3.png'
+    },
 ]

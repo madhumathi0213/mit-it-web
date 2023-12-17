@@ -20,16 +20,16 @@ const data = [
     desc: 'PG Students',
     count: 4
   },
-  {
-    icon: <ScholarsIcon height='50px' width='50px' />,
-    desc: 'UG Programmes',
-    count: 2
-  },
-  {
-    icon: <ScholarsIcon height='50px' width='50px' />,
-    desc: 'PG Programmes',
-    count: 1
-  },
+  // {
+  //   icon: <ScholarsIcon height='50px' width='50px' />,
+  //   desc: 'UG Programmes',
+  //   count: 2
+  // },
+  // {
+  //   icon: <ScholarsIcon height='50px' width='50px' />,
+  //   desc: 'PG Programmes',
+  //   count: 1
+  // },
   {
     icon: <PlacementIcon height='50px' width='50px' />,
     desc: 'Placement',
@@ -45,41 +45,41 @@ const data = [
     desc: 'Awards',
     count: 8
   },
-  {
-    icon: <FacultyIcon height='50px' width='50px' />,
-    desc: 'Faculty',
-    count: 20
-  },
-  {
-    icon: <FacultyIcon height='50px' width='50px' />,
-    desc: 'Staff',
-    count: 7
-  },
+  // {
+  //   icon: <FacultyIcon height='50px' width='50px' />,
+  //   desc: 'Faculty',
+  //   count: 20
+  // },
+  // {
+  //   icon: <FacultyIcon height='50px' width='50px' />,
+  //   desc: 'Staff',
+  //   count: 7
+  // },
   {
     icon: <ScholarsIcon height='50px' width='50px' />,
     desc: 'Publications',
     count: 105
   },
-  {
-    icon: <ScholarsIcon height='50px' width='50px' />,
-    desc: 'Citations',
-    count: 2575
-  },
+  // {
+  //   icon: <ScholarsIcon height='50px' width='50px' />,
+  //   desc: 'Citations',
+  //   count: 2575
+  // },
   {
     icon: <ScholarsIcon height='50px' width='50px' />,
     desc: 'Patents',
     count: 5
   },
-  {
-    icon: <ScholarsIcon height='50px' width='50px' />,
-    desc: 'H-index',
-    count: 100
-  },
-  {
-    icon: <ScholarsIcon height='50px' width='50px' />,
-    desc: 'I-index',
-    count: 63
-  },
+  // {
+  //   icon: <ScholarsIcon height='50px' width='50px' />,
+  //   desc: 'H-index',
+  //   count: 100
+  // },
+  // {
+  //   icon: <ScholarsIcon height='50px' width='50px' />,
+  //   desc: 'I-index',
+  //   count: 63
+  // },
 ]
 
 const Statistics = () => {
