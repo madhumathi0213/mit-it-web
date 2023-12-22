@@ -1,18 +1,26 @@
 import React from "react";
-import { Box } from "@mantine/core";
+import { Box, MantineProvider } from "@mantine/core";
 import AboutUsContent from "../components/commonComponents/AboutUsContent";
 import Layout from "../components/layout/Layout";
+import defaultTheme from "../theme/defaultTheme";
 
 
 const AboutUs = () => {
   return (
-    <Box>
-      <Layout withLayout={false}>
-        <Box mb={100}>
-          <AboutUsContent />
-        </Box>
-      </Layout>
-    </Box>
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={defaultTheme}
+    >
+      <Box>
+        <Layout withLayout={false}>
+          <Box mb={100}>
+            <AboutUsContent />
+          </Box>
+        </Layout>
+      </Box>
+    </MantineProvider>
+
   )
 }
 

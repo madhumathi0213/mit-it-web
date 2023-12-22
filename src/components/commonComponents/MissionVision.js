@@ -71,8 +71,11 @@ export const Academics = () => {
       <Text color={COLORS.primary} mb={8} weight={600} size={28}>UG Courses</Text>
       <Text size={20} style={{ textAlign: 'justify' }}>{HeroSection.courseTitle}</Text>
       <Text size={16} style={{ textAlign: 'justify' }}>{HeroSection.ugDesc}</Text>
+      <Text size={16} style={{ textAlign: 'justify' }}>{HeroSection.ugDesc}</Text>
       <Box mt={20}>
         <Text color={COLORS.primary} mb={8} weight={600} size={28}>PG Courses</Text>
+        <Text size={16} style={{ textAlign: 'justify' }}>{HeroSection.ugDesc}</Text>
+
         <Text size={16} style={{ textAlign: 'justify' }}>{HeroSection.pgdesc}</Text>
         <Text mt={16} size={16} style={{ textAlign: 'justify' }}>{HeroSection.pgdesc1}</Text>
       </Box>

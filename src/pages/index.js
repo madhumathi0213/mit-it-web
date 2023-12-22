@@ -6,6 +6,7 @@ import AboutContent from "../components/commonComponents/About"
 import Testimonials from "../components/commonComponents/Testimonials"
 import CompaniesVisited from "../components/commonComponents/CompaniesVisited"
 import Layout from "../components/layout/Layout"
+import defaultTheme from "../theme/defaultTheme"
 
 const HomepageWrapper = styled.div`
 img {
@@ -24,7 +25,11 @@ img {
 const IndexPage = () => {
   return (
     <HomepageWrapper>
-      <MantineProvider withGlobalStyles withNormalizeCSS>
+      <MantineProvider
+        theme={defaultTheme}
+        withGlobalStyles
+        withNormalizeCSS
+      >
         <Layout withLayout={true}>
           <AboutContent />
           <Statistics />
