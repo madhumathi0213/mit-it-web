@@ -7,7 +7,7 @@ import CurrentTime from "./CurrentTime";
 
 const Header = ({ withLayout }) => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: COLORS.primary }}>
+    <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: COLORS.primary,fontFamily:'Poppins' }}>
       {
         withLayout && (
           <div style={{ position: 'relative' }}>

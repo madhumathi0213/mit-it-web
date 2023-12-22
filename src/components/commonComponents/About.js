@@ -11,7 +11,7 @@ const AboutContent = () => {
         <Text color={COLORS.primary} align='center' size={60}>Overview</Text>
       </Box>
       <Box>
-        <Text size={20} style={{ textAlign: 'justify' }}>{HeroSection.overview}</Text>
+        <Text size={18} style={{ textAlign: 'justify' }}>{HeroSection.overview}</Text>
       </Box>
     </Box>
   )
